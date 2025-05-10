@@ -9,7 +9,7 @@ Searchbot is a modular project that evaluates the credibility of web URLs using 
 
 🚀 Deliverable 1: Streamlit Credibility App
 
-Path: Deliverable1/
+Path: Searchbot/Deliverable1
 
 A fully functional Streamlit app to interactively analyze URL credibility.
 
@@ -27,7 +27,7 @@ requirements.txt: Dependencies.
 
 🔎 Deliverable 2: URL Validator Class-Based Model
 
-Path: Deliverable_2/
+Path: Searchbot/Deliverable_2
 
 A class-based architecture (URLValidator) encapsulating credibility scoring.
 
@@ -51,7 +51,7 @@ sample_csv_bhairavi.csv: Example input.
 
 🧠 Deliverable 3: Feedback-Driven Credibility Classifier (ML Model)
 
-Path: Deliverable3/
+Path: Searchbot/Deliverable3
 
 Uses a hybrid neural network combining:
 
@@ -63,9 +63,9 @@ Trained on real CSVs collected from 15+ classmates via GitHub.
 
 Uploaded final trained model + tokenizer to Hugging Face Hub.
 
-🧩 Components:
+🧬 Components:
 
-hf_credibility_scorer_v2.ipynb: Builds the NN classifier and uploads to Hugging Face.
+hf_credibility_scorer_v2 (1).ipynb: Builds the NN classifier and uploads to Hugging Face.
 
 repo_extractor.ipynb: Pulls and cleans external data from multiple GitHub repos.
 
@@ -93,8 +93,9 @@ Sentiment-based bias scoring.
 
 Streamlit + Hugging Face + TensorFlow integration.
 
-📎 Useful Links
+📌 Useful Links
 
-🧪 Hugging Face Model: My-TF-NN-Model-v2
+🔪 Hugging Face Model: My-TF-NN-Model-v2
 
 🌐 GitHub Repository: Algorithms_DS > Searchbot
+
