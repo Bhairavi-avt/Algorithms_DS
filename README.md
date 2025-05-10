@@ -2,44 +2,7 @@
 
 This repository contains a collection of modular AI applications and machine learning projects, structured as separate folders with their own deliverables. Each project has its own README file with detailed explanations.
 
-Algorithms_DS/
-├── README.md
-├── Dual-Agent-Simulation/
-│   ├── app.py
-│   ├── requirements.txt
-│   ├── README.md
-│   └── utils/
-│       ├── helper.py
-│       └── helper.ipynb
-│
-├── Final_Project/
-│   ├── nypd_crime_analysis.ipynb
-│   └── README.md
-│
-├── Searchbot/
-│   ├── Deliverable1/
-│   │   ├── app.py
-│   │   ├── deliverable1.py
-│   │   ├── image.png
-│   │   └── requirements.txt
-│   │
-│   ├── Deliverable_2/
-│   │   ├── Deliverable2.ipynb
-│   │   ├── Test_run.ipynb
-│   │   ├── sample_csv_bhairavi.csv
-│   │   └── requirements.txt
-│   │
-│   ├── Deliverable3/
-│   │   ├── credibility_scorer.ipynb
-│   │   ├── hf_credibility_scorer_v2 (1).ipynb
-│   │   └── repo_extractor.ipynb
-│   │
-│   └── README.md
-│
-├── Tiny-Troupe/
-│   ├── tinyperson.py
-│   ├── persona_examples/
-│   └── README.md
+<pre> ```plaintext Algorithms_DS/ ├── README.md ├── Dual-Agent-Simulation/ │ ├── app.py │ ├── requirements.txt │ ├── README.md │ └── utils/ │ ├── helper.py │ └── helper.ipynb ├── Final_Project/ │ ├── nypd_crime_analysis.ipynb │ └── README.md ├── Searchbot/ │ ├── Deliverable1/ │ │ ├── app.py │ │ ├── deliverable1.py │ │ ├── image.png │ │ └── requirements.txt │ ├── Deliverable_2/ │ │ ├── Deliverable2.ipynb │ │ ├── Test_run.ipynb │ │ ├── sample_csv_bhairavi.csv │ │ └── requirements.txt │ ├── Deliverable3/ │ │ ├── credibility_scorer.ipynb │ │ ├── hf_credibility_scorer_v2 (1).ipynb │ │ └── repo_extractor.ipynb │ └── README.md ├── Tiny-Troupe/ │ ├── tinyperson.py │ ├── persona_examples/ │ └── README.md ``` </pre>
 
 
 ## 🔍 [Searchbot](./Searchbot)
