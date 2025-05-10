@@ -2,14 +2,6 @@
 
 This repository contains a collection of modular AI applications and machine learning projects, structured as separate folders with their own deliverables. Each project has its own README file with detailed explanations.
 
-![image](https://github.com/user-attachments/assets/043a3635-85e8-4506-9d78-103d5f1dfca6)
-![image](https://github.com/user-attachments/assets/8d145616-a862-423b-ab27-c3f5101eebab)
-![image](https://github.com/user-attachments/assets/db7875d1-124b-4df9-b423-aa8484abfc5c)
-
-
-
-
-
 ## 🔍 [Searchbot](./Searchbot)
 
 Analyze and score the **credibility of URLs** based on:
