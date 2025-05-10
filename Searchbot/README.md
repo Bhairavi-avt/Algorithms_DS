@@ -7,69 +7,66 @@ Searchbot is a modular project that evaluates the credibility of web URLs using 
 
 ![image](https://github.com/user-attachments/assets/670fa3bd-70de-4526-aee7-e8b9f8cfed27)
 
-🚀 Deliverable 1: Streamlit Credibility App
+## 🚀 Deliverable 1: Streamlit Credibility App  
+**Path:** [Searchbot/Deliverable1](https://github.com/Bhairavi-avt/Algorithms_DS/tree/main/Searchbot/Deliverable1)
 
-Path: Searchbot/Deliverable1
+A fully functional Streamlit app to interactively analyze URL credibility.  
+Supports:
+- ✅ Semantic similarity using Sentence Transformers  
+- ✅ Domain trust heuristics  
+- ✅ Google fact-check API  
+- ✅ Sentiment bias detection  
+- ✅ Chatbot-style interaction and star-based rating display
 
-A fully functional Streamlit app to interactively analyze URL credibility.
+**📄 Key Files:**
+- [`app.py`](https://github.com/Bhairavi-avt/Algorithms_DS/blob/main/Searchbot/Deliverable1/app.py): Streamlit dashboard UI  
+- [`deliverable1.py`](https://github.com/Bhairavi-avt/Algorithms_DS/blob/main/Searchbot/Deliverable1/deliverable1.py): Core backend logic  
+- [`requirements.txt`](https://github.com/Bhairavi-avt/Algorithms_DS/blob/main/Searchbot/Deliverable1/requirements.txt): Package dependencies  
+- [`image.png`](https://github.com/Bhairavi-avt/Algorithms_DS/blob/main/Searchbot/Deliverable1/image.png): Screenshot of UI
 
-Supports semantic similarity via sentence transformers, domain trust heuristics, fact-checking via Google API, and sentiment bias checks.
+---
 
-Shows results with star ratings and chatbot-style interaction.
+## 🔎 Deliverable 2: URL Validator Class-Based Model  
+**Path:** [Searchbot/Deliverable_2](https://github.com/Bhairavi-avt/Algorithms_DS/tree/main/Searchbot/Deliverable_2)
 
-🔧 Key files:
+Encapsulates the scoring logic inside a robust class-based architecture (`URLValidator`) with deep API integration.
 
-app.py: Streamlit dashboard UI.
+✨ **Enhancements:**
+- BERT-tiny for fake news classification  
+- SERP API for citation count from Google Scholar  
+- Modular scoring system: content relevance, domain trust, fact-check, bias  
+- Generates star rating and reasoning for results
 
-deliverable1.py: Core logic.
+**📄 Key Files:**
+- [`Deliverable2.ipynb`](https://github.com/Bhairavi-avt/Algorithms_DS/blob/main/Searchbot/Deliverable_2/Deliverable2.ipynb): Class-based implementation  
+- [`Test_run.ipynb`](https://github.com/Bhairavi-avt/Algorithms_DS/blob/main/Searchbot/Deliverable_2/Test_run.ipynb): Execution notebook  
+- [`sample_csv_bhairavi.csv`](https://github.com/Bhairavi-avt/Algorithms_DS/blob/main/Searchbot/Deliverable_2/sample_csv_bhairavi.csv): Sample dataset  
+- [`requirements.txt`](https://github.com/Bhairavi-avt/Algorithms_DS/blob/main/Searchbot/Deliverable_2/requirements.txt): Dependencies
 
-requirements.txt: Dependencies.
+---
 
-🔎 Deliverable 2: URL Validator Class-Based Model
+## 🧠 Deliverable 3: Hugging Face Neural Network for Rating Prediction  
+**Path:** [Searchbot/Deliverable3](https://github.com/Bhairavi-avt/Algorithms_DS/tree/main/Searchbot/Deliverable3)
 
-Path: Searchbot/Deliverable_2
+A deep learning pipeline trained to predict credibility ratings using:
+- Custom labeled datasets scraped from GitHub CSVs  
+- BERT + Neural network with dense layers and text embeddings  
+- Hybrid inputs: user prompt text + function score  
 
-A class-based architecture (URLValidator) encapsulating credibility scoring.
+Includes upload/download integration with Hugging Face Hub for real-time deployment.
 
-Adds deeper citation checks via SERP API + robust bias detection + domain trust heuristics.
+**📄 Key Files:**
+- [`credibility_scorer.ipynb`](https://github.com/Bhairavi-avt/Algorithms_DS/blob/main/Searchbot/Deliverable3/credibility_scorer.ipynb): Model pipeline  
+- [`hf_credibility_scorer_v2.ipynb`](https://github.com/Bhairavi-avt/Algorithms_DS/blob/main/Searchbot/Deliverable3/hf_credibility_scorer_v2%20(1).ipynb): Hugging Face deployment  
+- [`repo_extractor.ipynb`](https://github.com/Bhairavi-avt/Algorithms_DS/blob/main/Searchbot/Deliverable3/repo_extractor.ipynb): CSV downloader + merger
 
-Uses BERT-tiny for fake news detection.
+---
 
-📊 Enhancements:
+## 📦 Shared Dependencies
+- Python ≥ 3.8  
+- `transformers`, `sentence-transformers`, `tensorflow`, `streamlit`, `beautifulsoup4`, `scikit-learn`, `requests`
 
-Structured explanations of final scores.
-
-Modular method calls for each credibility dimension.
-
-📁 Key files:
-
-Deliverable2.ipynb: Core code logic.
-
-Test_run.ipynb: Usage testing.
-
-sample_csv_bhairavi.csv: Example input.
-
-🧠 Deliverable 3: Feedback-Driven Credibility Classifier (ML Model)
-
-Path: Searchbot/Deliverable3
-
-Uses a hybrid neural network combining:
-
-User prompt (BERT-embedded text input)
-
-Numerical rating inputs (functionality)
-
-Trained on real CSVs collected from 15+ classmates via GitHub.
-
-Uploaded final trained model + tokenizer to Hugging Face Hub.
-
-🧬 Components:
-
-hf_credibility_scorer_v2 (1).ipynb: Builds the NN classifier and uploads to Hugging Face.
-
-repo_extractor.ipynb: Pulls and cleans external data from multiple GitHub repos.
-
-credibility_scorer.ipynb: Experimentation and visualization of results.
+See [`requirements.txt`](https://github.com/Bhairavi-avt/Algorithms_DS/blob/main/Searchbot/requirements.txt) for global dependencies.
 
 📦 Model Output:
 
@@ -77,7 +74,7 @@ Predicts binary credibility label (High vs Low) based on text + numeric features
 
 Precision: 80%, Recall: 94% for high-credibility content.
 
-🤖 Features Across All Deliverables
+## 🤖 Features Across All Deliverables
 
 Sentence-BERT for semantic similarity.
 
@@ -93,9 +90,6 @@ Sentiment-based bias scoring.
 
 Streamlit + Hugging Face + TensorFlow integration.
 
-📌 Useful Links
 
-🔪 Hugging Face Model: My-TF-NN-Model-v2
 
-🌐 GitHub Repository: Algorithms_DS > Searchbot
 
