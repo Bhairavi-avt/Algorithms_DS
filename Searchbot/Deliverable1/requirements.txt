@@ -1,8 +1,7 @@
-requests==2.31.0
-beautifulsoup4==4.12.2
-sentence-transformers==2.2.2
-transformers==4.35.0
-torch==2.0.1
+requests 
+validators 
+textstat 
+beautifulsoup4 
+sentence-transformers 
+transformers 
 streamlit
-together
-streaming-stt-nemo==0.2.0
