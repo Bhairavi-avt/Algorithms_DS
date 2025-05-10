@@ -91,7 +91,7 @@ def check_google_scholar(url: str) -> int:
     Checks Google Scholar citations using SerpAPI.
     Returns the count of citations found.
     """
-    serpapi_key = "9bb914cd64d810cdbdd539112d43938a1355f377c79e8a06e4cf7b429d691529"
+    serpapi_key = "SERP_API"
     params = {"q": url, "engine": "google_scholar", "api_key": serpapi_key}
     try:
         response = requests.get("https://serpapi.com/search", params=params)
