@@ -3,6 +3,8 @@
 Searchbot is a modular project that evaluates the credibility of web URLs using a combination of domain trust analysis, semantic similarity, sentiment analysis, citation tracking, and user feedback modeling. The project is divided into 3 structured deliverables with distinct approaches.
 
 📁 Project Structure
+
+
 ![image](https://github.com/user-attachments/assets/670fa3bd-70de-4526-aee7-e8b9f8cfed27)
 
 🚀 Deliverable 1: Streamlit Credibility App
