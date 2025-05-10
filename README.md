@@ -43,7 +43,7 @@ Algorithms_DS/
 │   ├── persona_examples/
 │   └── README.md
 
-
+---
 ## 🔍 [Searchbot](./Searchbot)
 
 Analyze and score the **credibility of URLs** based on:
