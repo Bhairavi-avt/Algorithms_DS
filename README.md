@@ -1,17 +1,20 @@
+# 📊 Algorithms_DS: AI-Powered Projects Collection
+
+This repository contains a collection of modular AI applications and machine learning projects, structured as separate folders with their own deliverables. Each project has its own README file with detailed explanations.
+
 Algorithms_DS/
-├── README.md                    
-│
+├── README.md
 ├── Dual-Agent-Simulation/
 │   ├── app.py
 │   ├── requirements.txt
+│   ├── README.md
 │   └── utils/
 │       ├── helper.py
 │       └── helper.ipynb
-│   └── README.md                
 │
 ├── Final_Project/
 │   ├── nypd_crime_analysis.ipynb
-│   └── README.md              
+│   └── README.md
 │
 ├── Searchbot/
 │   ├── Deliverable1/
@@ -31,20 +34,13 @@ Algorithms_DS/
 │   │   ├── hf_credibility_scorer_v2 (1).ipynb
 │   │   └── repo_extractor.ipynb
 │   │
-│   └── README.md                
+│   └── README.md
 │
 ├── Tiny-Troupe/
 │   ├── tinyperson.py
 │   ├── persona_examples/
-│   └── README.md               
+│   └── README.md
 
-
-
-# 📊 Algorithms_DS: AI-Powered Projects Collection
-
-This repository contains a collection of modular AI applications and machine learning projects, structured as separate folders with their own deliverables. Each project has its own README file with detailed explanations.
-
----
 
 ## 🔍 [Searchbot](./Searchbot)
 
